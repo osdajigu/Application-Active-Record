@@ -1,0 +1,11 @@
+<p>
+  <strong>Usuario:</strong>
+  <%= comment.user %> <br>
+  <strong>Comentario:</strong>
+  <%= comment.body %>
+  
+  <%= link_to 'Borrar Comentario', [comment.article, comment],
+               method: :delete,
+               data: { confirm: 'Desea borrar el comentario?' },
+               class: "link indent" %>
+</p>
