@@ -1,0 +1,48 @@
+html, body{
+	margin: 0px;
+	font-family: 'Arimo', sans-serif;
+}
+.btn{
+	background-color: inherit;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 1.2em;
+	padding: 10px 12px;
+}
+.field{
+	margin-top: lem;
+}
+.top-space{
+	margin-top: 1em;
+}
+a,a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+.no-margin{
+	margin: 0px;
+}
+#logo{
+	font-size: 1.2em;
+}
+.be-red {
+	background-color: #2FA60E;
+}
+
+.white{
+	color: white;
+}
+.large-padding{
+	padding: 10px 5px;
+}
+.form-control{
+	border: none;
+	border-bottom: 1px solid;
+	outline: none;
+	width: 100%;
+	display: block;
+	padding: 10px 0px;
+	font-size: 1.2em;
+}
