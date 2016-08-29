@@ -1,4 +1,8 @@
 <h1><%= @article.tittle %></h1>
 <div>
-	<%= @article.body %>
+	<p>
+		<%= @article.body %>
+	</p>
 </div>
+<%= link_to 'Editar', edit_article_path(@article), class: "link" %> |
+<%= link_to 'Volver', articles_path, class:"link" %>
