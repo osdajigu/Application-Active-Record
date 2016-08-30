@@ -16,16 +16,10 @@
   					<h1 class = "no-margin" id = "logo">Blog Tutorial</h1>
   				</li>
   				<li class= "col-md" type = "none">
-  					<%= link_to "Inicio", root_path %>
+  					<%= link_to "Inicio", root_path, class: "link" %>
   				</li>
   				<li class= "col-md" type = "none">
-  					Diseño
-  				</li>
-  				<li class= "col-md" type = "none">
-  					Programacion
-  				</li>
-  				<li class= "col-md" type = "none">
-  					Tecnologia
+  					<%= link_to "Agregar articulo", new_article_path, class: "link" %>
   				</li>
   			</ul>	
   				
